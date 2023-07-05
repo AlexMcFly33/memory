@@ -1,0 +1,19 @@
+<div class="container-grid">
+  <div>
+    <p class="mt-3"> <strong> SCORE </strong> <br>
+    <%= @user.pseudo %> : 0 // Ordinateur : 0</p>
+  </div>
+  <div class="cards">
+    <% @cards.each do |card| %>
+      <%= link_to "", class: "link" do%>
+        <div class= "cards-info" data-controller="cards" data-action="click->cards#handleClick">
+          <% if true %>
+            <i class="<%= card.image %>"></i>
+          <% else %>
+            <i class="fa-solid fa-question"></i>
+          <% end %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
