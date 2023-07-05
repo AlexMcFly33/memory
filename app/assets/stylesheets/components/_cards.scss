@@ -1,0 +1,20 @@
+.cards {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  justify-items: center;
+  align-items: center;
+}
+
+.cards-info {
+  width: 150px;
+  height: 150px;
+  margin: 0px 0px 0px 0px;
+  background-color: white;
+  font-size: 60px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  margin: 0px 0px 0px 0px;
+
+  &:hover {
+    color: rgb(161, 160, 160);
+    transition: 0.5s;
+    opacity: 0.6;
+  }
+}
